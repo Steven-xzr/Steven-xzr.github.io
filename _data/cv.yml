@@ -29,9 +29,12 @@
     - year: 2022
       items: 
         - Hornor Undergraduate
+    - year: 2021
+      items:
+        - Outstanding Undergraduate in Academic Performance
     - year: 2019,2020,2021
       items: 
-        - National Scholarship
+        - Chinese National Scholarship
 
 # - title: Academic Interests
 #   type: nested_list

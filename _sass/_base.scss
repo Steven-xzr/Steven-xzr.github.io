@@ -248,7 +248,7 @@ blockquote {
 .social {
   text-align: center;
   .contact-icons {
-    font-size: 4rem;
+    font-size: 3rem; //change from 4 to 3
     a {
       i::before {
         color: var(--global-text-color);
@@ -489,7 +489,7 @@ footer.sticky-bottom {
       margin-bottom: 1rem;
       // margin-right: 0.5rem;
       .preview {
-        margin-right: 1rem; //add by lcy
+        margin-right: 0.5rem; //add by lcy
         width: 100%;
         min-width: 200px;
         max-width: 400px;

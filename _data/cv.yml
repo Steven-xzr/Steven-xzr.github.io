@@ -7,11 +7,12 @@
 - title: Education
   type: time_table
   contents:
-    - title: Bachelor
+    - title: Honours Bachelor Degree
       institution: Huazhong University of Science and Technology
       year: 2018-2022
       description:
-        - Major in Mechanical Engineering. Minor in Computer Science.
+        - Major in Mechanical Engineering. 
+        - Minor in Computer Science.
         # - title: Description 3.
         #   contents:
         #     - Sub-description 1.
@@ -28,13 +29,22 @@
   contents:
     - year: 2022
       items: 
-        - Hornor Undergraduate
+        - Graduate with Hornor
     - year: 2021
       items:
+        - Chinese National Scholarship
         - Outstanding Undergraduate in Academic Performance
-    - year: 2019,2020,2021
+    - year: 2020
       items: 
         - Chinese National Scholarship
+    - year: 2019
+      items: 
+        - Chinese National Scholarship
+    - year: 2019
+      title: 12th ``Higher Education Cup" Engineering Drawing Competiton
+      items:
+        - 12th ``Higher Education Cup" Engineering Drawing Competiton
+        - Outstanding Undergraduate in Academic Performance
 
 # - title: Academic Interests
 #   type: nested_list

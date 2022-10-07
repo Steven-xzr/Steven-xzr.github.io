@@ -1,8 +1,12 @@
 - title: General Information
   type: map
   contents:
-    - name: Full Name
+    - name: Name
       value: Changyi Lin
+    - name: Email
+      value: 254881660@qq.com or lincy@sqz.ac.cn
+    - name: Personal Website
+      value: https://linchangyi1.github.io/
 
 - title: Education
   type: time_table

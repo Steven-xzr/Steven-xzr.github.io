@@ -21,4 +21,4 @@ Currently, I am a fourth-year undergraduate student at [AI class, Shanghai Jiao 
 
 My research interest lies in the interdisciplinary topics of 3D vision, reinforcement learning, and robotics.
 
-In my spare time, I enjoy photography📷 & traveling🌄, foods🥘 & drinks🍷, and sports (especially tennis🎾, cycling🚴, and Formula One Racing🏎).
+In my spare time, I enjoy photography📷 & traveling🌄, foods🥘 & drinks🍷, and sports (especially tennis🎾, cycling🚴 & Formula One Racing🏎).

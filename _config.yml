@@ -3,23 +3,22 @@
 # -----------------------------------------------------------------------------
 
 title: blank # the website title (if blank, full name will be used instead)
-first_name: Changyi
+first_name: Zhengrong
 middle_name: 
-last_name: Lin
-email: 2548816608@qq.com
+last_name: Xue
+email: xuezhengrong@sjtu.edu.cn
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-  Photos from <a href="https://unsplash.com" target="_blank">Unsplash</a>.
 keywords:   # add your own keywords or leave empty
 
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon:  # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 
-url: https://linchangyi1.github.io # the base hostname & protocol for your site
+url: https://Steven-xzr.github.io # the base hostname & protocol for your site
 baseurl:  # the subpath of your site, e.g. /blog/
-last_updated: false # set to true if you want to display last updated in the footer
+last_updated: true # set to true if you want to display last updated in the footer
 impressum_path:  # set to path to include impressum link in the footer, use the same path as permalink in a page, helps to conform with EU GDPR
 
 # -----------------------------------------------------------------------------
@@ -66,11 +65,11 @@ og_image: # The site-wide (default for all links) Open Graph preview image
 # Social integration
 # -----------------------------------------------------------------------------
 
-github_username: linchangyi1 # your GitHub user name
+github_username: Steven-xzr # your GitHub user name
 gitlab_username: # your GitLab user name
-twitter_username: CHANGYILIN14 # your Twitter handle
+twitter_username: # your Twitter handle
 linkedin_username: # your LinkedIn user name
-scholar_userid: zKMxtSIAAAAJ # your Google Scholar ID
+scholar_userid: LO3pKmwAAAAJ # your Google Scholar ID
 semanticscholar_id: # your Semantic Scholar ID
 orcid_id: # your ORCID ID
 medium_username: # your Medium username

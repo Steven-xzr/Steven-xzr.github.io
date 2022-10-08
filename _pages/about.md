@@ -8,10 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: false # crops the image to make it circular
-  address: >
-    <p>Lab03, Shanghai Qi Zhi Institute</p>
-    <p>Floor 41, 701 Yunjin Road</p>
-    <p>Shanghai, China</p>
+  address: 
 
 news: false  # includes a list of news items
 selected_papers: false # includes a list of papers marked as "selected={true}"

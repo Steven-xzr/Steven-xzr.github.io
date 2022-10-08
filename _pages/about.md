@@ -15,5 +15,7 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-I am a fourth-year undergraduate student at [AI class](https://aisjtu.icu), Shanghai Jiao Tong University. Currently, I am a research intern at [Shanghai Qi Zhi Institute](https://sqz.ac.cn/) under the supervise of Prof. [Huazhe Xu](http://hxu.rocks/).
+I am an incoming PhD student at [Institute for Interdisciplinary Information Sciences (IIIS), Tsinghua University](https://iiis.tsinghua.edu.cn) under the supervision of Prof. [Huazhe Xu](http://hxu.rocks/).
+
+Currently, I am a fourth-year undergraduate student at [AI class](https://aisjtu.icu), Shanghai Jiao Tong University. I am also a research intern at [Shanghai Qi Zhi Institute](https://sqz.ac.cn/).
 

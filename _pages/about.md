@@ -20,3 +20,5 @@ I am an incoming Ph.D. student in artificial intelligence at [Institute for Inte
 Currently, I am a fourth-year undergraduate student at [AI class, Shanghai Jiao Tong University](https://aisjtu.icu) where I worked with Prof. [Cewu Lu](https://www.mvig.org). I am also a research intern at [Shanghai Qi Zhi Institute](https://sqz.ac.cn/).
 
 My research interest lies in the interdisciplinary topics of 3D vision, reinforcement learning, and robotics.
+
+In my spare time, I enjoy photography📷 & traveling🌄, foods🥘 & drinks🍷, and sports (especially tennis🎾, cycling🚴, and Formula One Racing🏎).

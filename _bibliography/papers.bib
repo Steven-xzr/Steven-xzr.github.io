@@ -3,14 +3,28 @@
 
 
 @article{xue2022useek,
-  abbr={arXiv},
+  abbr={ICRA},
   title={USEEK: Unsupervised SE (3)-Equivariant 3D Keypoints for Generalizable Manipulation},
   author={Xue, Zhengrong and Yuan, Zhecheng and Wang, Jiashun and Wang, Xueqian and Gao, Yang and Xu, Huazhe},
-  journal={arXiv preprint arXiv:2209.13864},
-  year={2022},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2023},
   abstract={Can a robot manipulate intra-category unseen objects in arbitrary poses with the help of a mere demonstration of grasping pose on a single object instance? In this paper, we try to address this intriguing challenge by using USEEK, an unsupervised SE(3)-equivariant keypoints method that enjoys alignment across instances in a category, to perform generalizable manipulation. USEEK follows a teacher-student structure to decouple the unsupervised keypoint discovery and SE(3)-equivariant keypoint detection. With USEEK in hand, the robot can infer the category-level task-relevant object frames in an efficient and explainable manner, enabling manipulation of any intra-category objects from and to any poses. Through extensive experiments, we demonstrate that the keypoints produced by USEEK possess rich semantics, thus successfully transferring the functional knowledge from the demonstration object to the novel ones. Compared with other object representations for manipulation, USEEK is more adaptive in the face of large intra-category shape variance, more robust with limited demonstrations, and more efficient at inference time.},
   arxiv={2209.13864},
-  website={https://sites.google.com/view/useek}
+  website={https://sites.google.com/view/useek},
+  code={https://github.com/Steven-xzr/USEEK},
+}
+
+@inproceedings{yuanpre,
+  abbr={NeurIPS},
+  award={Spotlight},
+  title={Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning},
+  author={Yuan, Zhecheng and Xue, Zhengrong and Yuan, Bo and Wang, Xueqian and Wu, Yi and Gao, Yang and Xu, Huazhe},
+  booktitle={Neural Information Processing Systems (NeurIPS)},
+  year={2022},
+  abstract={Learning generalizable policies that can adapt to unseen environments remains challenging in visual Reinforcement Learning (RL). Existing approaches try to acquire a robust representation via diversifying the appearances of in-domain observations for better generalization. Limited by the specific observations of the environment, these methods ignore the possibility of exploring diverse real-world image datasets. In this paper, we investigate how a visual RL agent would benefit from the off-the-shelf visual representations. Surprisingly, we find that the early layers in an ImageNet pre-trained ResNet model could provide rather generalizable representations for visual RL. Hence, we propose Pre-trained Image Encoder for Generalizable visual reinforcement learning (PIE-G), a simple yet effective framework that can generalize to the unseen visual scenarios in a zero-shot manner. Extensive experiments are conducted on DMControl Generalization Benchmark, DMControl Manipulation Tasks, and Drawer World to verify the effectiveness of PIE-G. Empirical evidence suggests PIE-G can significantly outperforms previous state-of-the-art methods in terms of generalization performance. In particular, PIE-G boasts a 55% generalization performance gain on average in the challenging video background setting.},
+  arxiv={2212.08860},
+  website={https://sites.google.com/view/pie-g/home},
+  
 }
 
 
@@ -19,7 +33,7 @@
   award={Oral},
   title={Skeleton Merger: an Unsupervised Aligned Keypoint Detector},
   author={Shi, Ruoxi and Xue, Zhengrong and You, Yang and Lu, Cewu},
-  booktitle={Proceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition},
+  booktitle={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
   pages={43--52},
   year={2021},
   abstract={Detecting aligned 3D keypoints is essential under many scenarios such as object tracking, shape retrieval and robotics. However, it is generally hard to prepare a high-quality dataset for all types of objects due to the ambiguity of keypoint itself. Meanwhile, current unsupervised detectors are unable to generate aligned keypoints with good coverage. In this paper, we propose an unsupervised aligned keypoint detector, Skeleton Merger, which utilizes skeletons to reconstruct objects. It is based on an Autoencoder architecture. The encoder proposes keypoints and predicts activation strengths of edges between keypoints. The decoder performs uniform sampling on the skeleton and refines it into small point clouds with pointwise offsets. Then the activation strengths are applied and the sub-clouds are merged. Composite Chamfer Distance (CCD) is proposed as a distance between the input point cloud and the reconstruction composed of sub-clouds masked by activation strengths. We demonstrate that Skeleton Merger is capable of detecting semantically-rich salient keypoints with good alignment, and shows comparable performance to supervised methods on the KeypointNet dataset. It is also shown that the detector is robust to noise and subsampling.},

@@ -1,6 +1,29 @@
 ---
 ---
 
+@article{xue2024arraybot,
+  abbr={ICRA},
+  title={Arraybot: Reinforcement Learning for Generalizable Distributed Manipulation through Touch},
+  author={Xue^*, Zhengrong and Zhang^*, Han and Cheng, Jingwen and He, Zhengmao and Ju, Yuanchen and Lin, Changyi and Zhang, Gu and Xu, Huazhe},
+  journal={IEEE International Conference on Robotics and Automation (ICRA)},
+  year={2024},
+  abstract={We present ArrayBot, a distributed manipulation system consisting of a 16x16 array of vertically sliding pillars integrated with tactile sensors, which can simultaneously support, perceive, and manipulate the tabletop objects. Towards generalizable distributed manipulation, we leverage reinforcement learning (RL) algorithms for the automatic discovery of control policies. In the face of the massively redundant actions, we propose to reshape the action space by considering the spatially local action patch and the low-frequency actions in the frequency domain. With this reshaped action space, we train RL agents that can relocate diverse objects through tactile observations only. Surprisingly, we find that the discovered policy can not only generalize to unseen object shapes in the simulator but also transfer to the physical robot without any domain randomization. Leveraging the deployed policy, we present abundant real-world manipulation tasks, illustrating the vast potential of RL on ArrayBot for distributed manipulation.},
+  arxiv={2306.16857},
+  website={https://steven-xzr.github.io/ArrayBot},
+  code={https://github.com/Steven-xzr/ArrayBot},
+}
+
+@article{li2024otas,
+  abbr={WACV},
+  title={OTAS: Unsupervised Boundary Detection for Object-Centric Temporal Action Segmentation},
+  author={Li, Yuerong and Xue, Zhengrong and Xu, Huazhe},
+  journal={IEEE/CVF Winter Conference on Applications of Computer Vision},
+  year={2024},
+  abstract={Temporal action segmentation is typically achieved by discovering the dramatic variances in global visual descriptors. In this paper, we explore the merits of local features by proposing the unsupervised framework of Object-centric Temporal Action Segmentation (OTAS). Broadly speaking, OTAS consists of self-supervised global and local feature extraction modules as well as a boundary selection module that fuses the features and detects salient boundaries for action segmentation. As a second contribution, we discuss the pros and cons of existing frame-level and boundary-level evaluation metrics. Through extensive experiments, we find OTAS is superior to the previous state-of-the-art method by 41% on average in terms of our recommended F1 score. Surprisingly, OTAS even outperforms the ground-truth human annotations in the user study. Moreover, OTAS is efficient enough to allow real-time inference.},
+  arxiv={2309.06276},
+  code={https://github.com/yl596/otas},
+}
+
 
 @article{xue2022useek,
   abbr={ICRA},

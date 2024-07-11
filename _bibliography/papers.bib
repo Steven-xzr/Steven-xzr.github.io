@@ -14,6 +14,7 @@
   arxiv={2306.16857},
   website={https://steven-xzr.github.io/ArrayBot},
   code={https://github.com/Steven-xzr/ArrayBot},
+  preview={arraybot.gif}
 }
 
 @article{li2024otas,
@@ -25,6 +26,7 @@
   abstract={Temporal action segmentation is typically achieved by discovering the dramatic variances in global visual descriptors. In this paper, we explore the merits of local features by proposing the unsupervised framework of Object-centric Temporal Action Segmentation (OTAS). Broadly speaking, OTAS consists of self-supervised global and local feature extraction modules as well as a boundary selection module that fuses the features and detects salient boundaries for action segmentation. As a second contribution, we discuss the pros and cons of existing frame-level and boundary-level evaluation metrics. Through extensive experiments, we find OTAS is superior to the previous state-of-the-art method by 41% on average in terms of our recommended F1 score. Surprisingly, OTAS even outperforms the ground-truth human annotations in the user study. Moreover, OTAS is efficient enough to allow real-time inference.},
   arxiv={2309.06276},
   code={https://github.com/yl596/otas},
+  preview={otas.png}
 }
 
 
@@ -41,7 +43,6 @@
 }
 
 @article{yuanpre,
-  award={Spotlight},
   title={Pre-Trained Image Encoder for Generalizable Visual Reinforcement Learning},
   author={Yuan, Zhecheng and Xue, Zhengrong and Yuan, Bo and Wang, Xueqian and Wu, Yi and Gao, Yang and Xu, Huazhe},
   journal={Conference on Neural Information Processing Systems (NeurIPS)},
@@ -54,8 +55,6 @@
 
 
 @article{shi2021skeleton,
-  abbr={CVPR},
-  award={Oral},
   title={Skeleton Merger: an Unsupervised Aligned Keypoint Detector},
   author={Shi, Ruoxi and Xue, Zhengrong and You, Yang and Lu, Cewu},
   journal={IEEE/CVF Conference on Computer Vision and Pattern Recognition (CVPR)},
@@ -64,4 +63,5 @@
   abstract={Detecting aligned 3D keypoints is essential under many scenarios such as object tracking, shape retrieval and robotics. However, it is generally hard to prepare a high-quality dataset for all types of objects due to the ambiguity of keypoint itself. Meanwhile, current unsupervised detectors are unable to generate aligned keypoints with good coverage. In this paper, we propose an unsupervised aligned keypoint detector, Skeleton Merger, which utilizes skeletons to reconstruct objects. It is based on an Autoencoder architecture. The encoder proposes keypoints and predicts activation strengths of edges between keypoints. The decoder performs uniform sampling on the skeleton and refines it into small point clouds with pointwise offsets. Then the activation strengths are applied and the sub-clouds are merged. Composite Chamfer Distance (CCD) is proposed as a distance between the input point cloud and the reconstruction composed of sub-clouds masked by activation strengths. We demonstrate that Skeleton Merger is capable of detecting semantically-rich salient keypoints with good alignment, and shows comparable performance to supervised methods on the KeypointNet dataset. It is also shown that the detector is robust to noise and subsampling.},
   arxiv={2103.10814},
   code={https://github.com/eliphatfs/SkeletonMerger},
+  preview={skeleton_merger.png}
 }
